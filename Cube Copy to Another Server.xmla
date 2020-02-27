@@ -1,0 +1,10 @@
+<Synchronize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+	<Source>
+		<ConnectionString>Provider=MSOLAP.7;Data Source=CIBDMISQLDV001\UCOM001;Integrated Security=SSPI;Initial Catalog=Compass OLAP</ConnectionString>
+		<Object>
+			<DatabaseID>Compass OLAP</DatabaseID>
+		</Object>
+	</Source>
+	<SynchronizeSecurity>CopyAll</SynchronizeSecurity>
+	<ApplyCompression>true</ApplyCompression>
+</Synchronize>
